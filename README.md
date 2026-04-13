@@ -1,33 +1,39 @@
 # Qiskit Security Lab
 
-Introductory Qiskit projects demonstrating quantum computing concepts relevant to future security and cryptography.
+Qiskit-based quantum computing demos illustrating randomness, superposition, and entanglement, with relevance to future cryptography and security.
 
-## Overview
+---
 
-This repository contains simple quantum computing demos built with Qiskit.
+## 🚀 Overview
 
-It covers:
+This project demonstrates core quantum computing concepts using Qiskit and AerSimulator.
 
-- quantum randomness
-- superposition
-- entanglement
-- probabilistic measurement outcomes
+Focus areas:
+- Quantum randomness
+- Superposition
+- Entanglement (Bell states)
+- Probabilistic measurement
 
-These examples are intended as a beginner portfolio project and a practical first step toward understanding concepts related to future cryptography and quantum security.
+The goal is to provide a practical, code-based introduction to ideas that are expected to impact future encryption systems.
 
-## Files
+---
 
-### `random_generator.py`
-Creates a 1-qubit quantum circuit, applies a Hadamard gate to place the qubit in superposition, and measures the result to generate random outcomes.
+## 📂 Project Structure
 
-### `bell_state_demo.py`
-Creates a 2-qubit Bell state to demonstrate entanglement and saves a histogram of measurement results.
+- `random_generator.py`  
+  Quantum random number generator using superposition
 
-## Installation
+- `bell_state_demo.py`  
+  Demonstrates entanglement and outputs a measurement histogram
 
-Create and activate a virtual environment, then install dependencies:
+- `plots/`  
+  Contains generated visualization output
+
+---
+
+## ⚙️ Installation
 
 ```bash
 python3 -m venv qiskit-env
 source qiskit-env/bin/activate
-pip install -r requirements.tx
+pip install -r requirements.txt
