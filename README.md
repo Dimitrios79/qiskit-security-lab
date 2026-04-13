@@ -37,3 +37,4 @@ The goal is to provide a practical, code-based introduction to ideas that are ex
 python3 -m venv qiskit-env
 source qiskit-env/bin/activate
 pip install -r requirements.txt
+![Bell State Histogram](plots/bell_state_histogram.png)
