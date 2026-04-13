@@ -1,6 +1,7 @@
 # Qiskit Security Lab
 
 Qiskit-based quantum computing demos illustrating randomness, superposition, and entanglement, with relevance to future cryptography and security.
+![Bell State Histogram](plots/bell_state_histogram.png)
 
 ---
 
@@ -37,4 +38,3 @@ The goal is to provide a practical, code-based introduction to ideas that are ex
 python3 -m venv qiskit-env
 source qiskit-env/bin/activate
 pip install -r requirements.txt
-![Bell State Histogram](plots/bell_state_histogram.png)
