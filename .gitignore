@@ -1,0 +1,10 @@
+# virtual environment
+qiskit-env/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# plots
+*.png
