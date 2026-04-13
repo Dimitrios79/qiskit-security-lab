@@ -1,8 +1,12 @@
 # Qiskit Security Lab
 
 Qiskit-based quantum computing demos illustrating randomness, superposition, and entanglement, with relevance to future cryptography and security.
-![Bell State Histogram](plots/bell_state_histogram.png)
-
+<p align="center">
+  <img src="plots/bell_state_histogram.png" width="500"/>
+</p>
+<p align="center">
+  Bell state measurement showing expected entanglement (~50/50 distribution)
+</p>
 ---
 
 ## 🚀 Overview
